@@ -1,5 +1,5 @@
 
-// моделирование библиотеки
+// библиотека
 
 abstract class Edition {
   constructor(
@@ -28,7 +28,7 @@ abstract class Edition {
 }
 
 
-// интерфейс выдачи и приёма
+// выдача и приём
 interface Issue {
   give(r: Reader): boolean
   take(r: Reader): boolean
